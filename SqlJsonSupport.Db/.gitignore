@@ -422,6 +422,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
-/mobile/src/app/cardlist/cardlist-item/local.css
-server/Aggregator.Data.Services/appsettings.json

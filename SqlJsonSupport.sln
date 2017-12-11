@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27205.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlJsonSupport", "SqlJsonSupport\SqlJsonSupport.csproj", "{22B43189-D4F8-4550-B784-7EA7AEE5DFA5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlJsonSupport.Db", "SqlJsonSupport.Db\SqlJsonSupport.Db.sqlproj", "{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22B43189-D4F8-4550-B784-7EA7AEE5DFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B43189-D4F8-4550-B784-7EA7AEE5DFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B43189-D4F8-4550-B784-7EA7AEE5DFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B43189-D4F8-4550-B784-7EA7AEE5DFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67D80C0-3D07-45CB-8C78-26C1EF9FB659}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54A26835-A68E-40F1-A6AB-431EFF49CDEA}
+	EndGlobalSection
+EndGlobal
