@@ -38,16 +38,12 @@ namespace SqlJsonSupport.Controllers
 
                         if (reader.Read())
                         {
-                            string charges = reader.GetFieldValue<string>(chargesOrdinal),
-                                documents = reader.GetFieldValue<string>(docsOrdinal),
-                                features = reader.GetFieldValue<string>(featOrdinal);
-
                             return Ok(new
                             {
                                 Id = id,
-                                Charges = JsonConvert.DeserializeObject<Dictionary<string, string>>(charges),
-                                Documents = JsonConvert.DeserializeObject<string[]>(documents),
-                                Features = JsonConvert.DeserializeObject<string[]>(features)
+                                Charges = reader.GetFieldJson<Dictionary<string, string>>(chargesOrdinal),
+                                Documents = reader.GetFieldJson<string[]>(docsOrdinal),
+                                Features = reader.GetFieldJson<string[]>(featOrdinal)
                             });
                         }
                         return NotFound();
